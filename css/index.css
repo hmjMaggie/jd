@@ -1,0 +1,535 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,input,dl,dt,dd{margin:0;padding:0;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color:#666;}
+a:hover{color:#c81623;}
+img,input{border:none;}
+boby{font-family:arial,"Microsoft YaHei","宋体";position: relative;}
+i{font-style: normal;font-size: 13px;font-family: consolas;}
+.clearfix:after{content: ".";clear:both;font-size: 0;height:0;display:block;}
+.inner{width:1210px;margin:0 auto;}
+
+/*第一层样式表--------------------------------------------------------*/
+.page1 .top{height:476px}
+.page1{height:637px;}
+.page1 .warp{width:210px;float:left;position:relative;}
+.page1 .nav_list{width:209px;height:466px;background: #c81623;border-left:1px solid #b61d1d;z-index:4;position:relative;}
+.page1 .nav_list h3{width:173px;overflow:hidden;font-weight:normal;color:#fff;padding-left:10px;font-size:14px;}
+.page1 .nav_list li{line-height:31px;height:31px;position:relative}
+.page1 .nav_list .ac{background:#f7f7f7;}
+.page1 .nav_list .ac h3{color:#666;}
+.page1 .nav_list .ac a{color:#666;}
+.page1 .nav_list li a:hover{color:#C81623;}
+.page1 .nav_list li a{color:#fff;font-size:14px;}
+.page1 .nav_list li i{position:absolute;top:0;right:13px;color:#fff;font-family:consolas;font-size: 13px;}
+.page1 .popup{width:999px;position:absolute;top:-1px;left:209px;border:1px solid #b61d1d;background:#f7f7f7;min-height: 465px;z-index:2;}
+.page1 .popup .left{float:left;margin:20px 0 0 20px;width:740px;}
+.page1 .brand a{float:left;height:24px;line-height: 24px;background: #7c7171;color:#fff;position:relative;padding:0 32px 0 9px;margin-right: 10px;font-size: 12px;}
+.page1 .brand a i{width:23px;height:23px;text-align:center;position:absolute;top:1px;right:0;background:#5c5251;font-family: consolas;font-size: 13px;}
+.page1 .brand .ac{background:#C81623;}
+.page1 .brand .ac i{background:#b1191a;}
+.page1 .brand a:hover{background:#C81623;}
+.page1 .brand a:hover i{background:#b1191a;}
+.page1 .menu{margin-top:6px;}
+.page1 .menu dl{padding-top: 10px;float:left;}
+.page1 .menu dt{width:84px;float:left;text-align: right;position:relative;line-height: 21px;height:21px;}
+.page1 .menu dt a{font-size: 12px;font-weight: bold;padding-right: 30px;}
+.page1 .menu dt i{position:absolute;top:0;right:17px;}
+.page1 .menu dd{width:622px;float:left;border-bottom: 1px solid #f2f2f2;padding-bottom: 2px;}
+.page1 .menu dd a{float:left;border-left: 1px solid #e9e9e9;height:16px;line-height:16px;padding:0 8px;font-size: 12px;margin-bottom: 8px;}
+.page1 .menu dd span{width:16px;width:16px;display:inline-block;}
+.page1 .right1{float:right;margin: 20px 19px 0 0;width:187px;}
+.page1 .right1 ul{margin-bottom: 9px;}
+.page1 .right1 li{width:83px;height:35px;overflow:hidden;float:left;margin: 0 1px 1px 0;}
+.page1 .right1 .pic{width:168px;height:134px;overflow: hidden;margin-bottom: 1px;}
+.page1 .banner{float:left;margin:12px 10px 0; width: 730px;height: 454px;position: relative;}
+.page1 .banner>span{width: 30px;height: 60px;cursor: pointer; background: rgba(0,0,0,0.3);position: absolute;z-index: 10;text-decoration: none;font: bolder 30px/60px "宋体";text-align: center;color: #fff;}
+.page1 .pre_btn{left: 5px;top: 188px;}
+.page1 .next_btn{right: 5px;top: 188px;}  
+.page1 .banner ol{position: absolute;bottom: 20px;margin-left:-90px; left:50%;padding: 4px 8px;font-size: 0;z-index: 1;background-color: hsla(0,0%,100%,.3);border-radius: 12px;}
+.page1 .i_btn{display: inline-block;margin-right:10px;width: 12px;height: 12px;border-radius: 100%;background: #fff;}
+.page1 .last{margin-right: 0;}
+.page1 .banner ol .ac{background: red;}
+.page1 .top .right{float:right;width:250px;margin-top:12px;}
+.page1 .news{border:1px solid #e4e4e4;height:163px;}
+.page1 .news .title{border-bottom: 1px dotted #e8e8e7;height:32px;line-height: 30px;padding:0 15px;}
+.page1 .news .title a{float:right;font-size:12px;}
+.page1 .news .title h3{color:#666;font-size: 16px;font-weight: normal;}
+.page1 .news ul{padding:5px 0 0 15px;}
+.page1 .news li{line-height: 24px;height:24px}
+.page1 .news ul a{font-size:12px;vertical-align:top;font-family:"宋体";}
+.page1 .news ul span{font-weight: bold;margin-right: 5px;}
+.page1 .icon{height:208px;border:1px solid #e4e4e4;border-top:none;overflow: hidden;}
+.page1 .icon ul{width:260px;text-align: center;}
+.page1 .icon li{width:62px;height:70px;border-right:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;float:left;position: relative;}
+.page1 .icon i{width:25px;height:25px;position:absolute;top:12px;left:20px;background: url(../images/57620a6fN77b2b8af.png) no-repeat;}
+.page1 .er{background-position: 0 -27px;}
+.page1 .san{background-position: 0 -52px;}
+.page1 .si{background-position: 0 -75px;}
+.page1 .wu{background-position: 0 -102px;}
+.page1 .liu{background-position: 0 -126px;}
+.page1 .qi{background-position: 0 -151px;}
+.page1 .ba{background-position: 0 -176px;}
+.page1 .jiu{background-position: 0 -250px;}
+.page1 .shi{background-position: 0 -200px;}
+.page1 .sy{background-position: 0 -275px;}
+.page1 .icon .se{background-position: 0 -227px;}
+.page1 .icon ul span{line-height:30px;padding-top:40px;font-size:12px;font-family: "宋体";display: block;}
+.page1 .pic{width:250px;height:75px;padding-top:5px;}
+.page1 .bot .zhongbiao{width:210px;height:151px;float:left;background:url(../images/homebg.png) no-repeat -213px -136px;}
+.page1 .bot a{float:left;margin-right:1px;}
+.page1 .bot .active{margin-right:0;}
+
+/*第二层样式表--------------------------------------------------------*/
+.page2{margin-top: 22px;}
+.page2 .top{height:40px;}
+.page2 .top h3{line-height:30px;height:30px;float:left;color:#333333;font-size: 20px;font-weight: normal;background:url("../images/homebg.png") no-repeat 85px -91px;padding-right: 228px;}
+.page2 .top a{float:right;margin-top:6px;font-size: 12px;font-family: "宋体";padding-right: 25px;background:url("../images/homebg.png") no-repeat -310px -7px;}
+.page2 .top a:hover{background-position:-310px -31px;color:#C81623;}
+.page2 .bot{width:1208px;height: 231px;border:1px solid #d1d1d1}
+.page2 .bot li{float:left;width:201px;padding-top: 20px;overflow:hidden;}
+.page2 .bot .first{width:203px;margin-left: -1px;}
+.page2 .bot li .pic{width:130px;height: 130px;padding:0 36px;}
+.page2 .text{border-left: 1px solid #e6e6e6;margin-top: 10px;padding:0 36px;}
+.page2 .text a{font-size: 12px;line-height: 18px;font-family: "宋体";height:36px;display: block;overflow: hidden;}
+.page2 span{height:21px;line-height: 21px;font-size: 17px;margin-top: 5px;display: block;color:#b51d1a;}
+.page2 i{font-size: 13px;}
+
+/*第三层样式表--------------------------------------------------------*/
+.page3{padding-top:22px;}
+.page3 h2{line-height: 34px;height: 34px;font-size: 20px;font-weight: normal;}
+.page3 .bot{border:1px solid #ededed;height:405px;}
+.page3 .left{float:left;width:403px;background: #f7f7f7;float: left;border-right: 1px solid #ededed;}
+.page3 .left h3{height: 40px;text-align: center;line-height: 40px;font-size: 15px;border-bottom: 1px dashed #e0e0e0;margin: 0 20px;color: #333;}
+.page3 .left .tuwen{position:relative;}
+.page3 .left .tuwen .pic{height: 205px;overflow: hidden;}
+.page3 .left .tuwen .con{position: absolute;left: 44px;top: 59px;}
+.page3 .left .tuwen .con p{line-height: 38px;height: 38px;font-size: 15px;color: #333;font-weight: bolder;}
+.page3 .left .tuwen .con span{line-height: 18px;height: 18px;font-size: 12px;display: block;color:#333;}   
+.page3 .left .tuwen .con i{line-height: 18px;height: 18px;font-size: 12px;color: #c81623;display: block;} 
+.page3 .left ul{border-top: 1px solid #ededed;}
+.page3 .left li{float: left;width: 201px;position:relative;border-right: 1px solid #ededed;}
+.page3 .left .last{border-right:none;}
+.page3 .left li .pic{height:158px;}
+.page3 .left li .con{position: absolute;top:39px;left:10px;}
+.page3 .left li .con p{line-height: 38px;height:38px;font-size: 15px;color: #333;font-weight: bolder;}
+.page3 .left li .con span{line-height: 18px;height: 18px;font-size: 12px;display: block;color: #333;}
+.page3 .left li .con i{line-height: 18px;height: 18px;font-size: 12px;color: #c81623;display: block;}
+.page3 .zhong{width: 228px;background: #fff;float:left;border-right: 1px solid #ededed;}
+.page3 .zhong h3{line-height: 40px;height: 40px;font-size: 15px;border-bottom: 1px dashed #e0e0e0;text-align: center;margin: 0 20px;color: #333;}
+.page3 .zhong .tuwen{position: relative;}
+.page3 .zhong .tuwen .pic{height: 205px;overflow: hidden;}
+.page3 .zhong .tuwen .con{position: absolute;left: 10px;top: 39px;}
+.page3 .zhong .tuwen .con p{line-height: 38px;height: 38px;font-size: 15px;color: #333;font-weight: bolder;}
+.page3 .zhong .tuwen .con span{line-height: 18px;height: 18px;font-size: 12px;display: block;color: #333;}
+.page3 .zhong .tuwen .con i{line-height: 18px;height: 18px;font-size: 12px;color: #c81623;display: block;}
+.page3 .zhong .tuwen .pic_min{height: 158px;border-top: 1px solid #ededed;}
+.page3 .right{width: 171px;height:405px;float: left;}
+.page3 .icon{width: 85px;border-right: 1px dashed #e0e0e0;float: left;height:381px;overflow: hidden;margin-top: 13px;}
+.page3 .icon ul{margin-top: -13px;}
+.page3 .icon li{font-size: 0;border-bottom: 1px dashed #e0e0e0;width: 74px;margin-left: 11px;}
+.page3 .icon li a{width: 85px;margin-left: -11px;display: block;text-align: center;}
+.page3 .r{border: none;}
+.page3 .r li{margin-left: 0;}
+.page3 .r li a{margin-left: 0;}
+
+/*下面的公共的adposition样式----------------------------------------------*/
+.adposition{width: 1200px;margin:20px auto 15px;height: 125px;padding: 0 5px 0;}  
+.adposition .ad{width: 400px;display: block;float: left;font-size: 0;}  
+
+/*下面的公共的title样式----------------------------------------------*/
+.title h2 i{color: #fff;font-size: 13px;position: absolute;left: 3px;top: 0;display: block;}
+.title{border-bottom: 1px solid #C81623;height: 35px;}
+.title h2{float: left;height: 30px;line-height: 30px;font-size: 20px;color: #333;font-weight: normal;padding-left: 40px;background: url("../images/nva_bg.png") no-repeat 0 -35px;position: relative;}
+.title ul{float: right;border: 1px solid #ededed;border-bottom: none;}
+.title ul li{float: left;height: 31px;line-height: 31px;position: relative;border-top: 3px solid #fff;border-left: 1px solid #fff;border-right: 1px solid #fff;}
+.title ul .ac{border-color:#C81623 ;z-index: 3;margin-top: -1px; padding-top: 1px;}
+.title ul .ac i{display: none;}
+.title ul .ac a{height: 32px;background: #fff;}
+.title li a{padding: 0 15px;font-size: 12px;display: block;}
+.title li i{width: 1px;height: 14px;background: #ccc;position: absolute;top:10px;right:-2px;z-index: 2;}
+
+/*第四层样式表--------------------------------------------------------*/
+.page4 .main .left{width:330px;float:left}
+.page4 .main .left .top{height: 473px;position: relative; overflow: hidden;}    
+.page4 .main .left .top .pic{position: relative;}
+.page4 .text{position: absolute;left: 0;top: 253px;}
+.page4 .yi{background: rgba(255,255,255,0.5);padding-left: 25px;height: 92px;overflow: hidden;}
+.page4 .yi li{width: 100px;height: 26px;float: left;margin: 10px 0;overflow: hidden;}
+.page4 .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/clothesicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page4 .yi li a:hover{color:#C81623}
+.page4 .yi .er{background-position: 0 -26px;}     
+.page4 .yi .san{background-position: 0 -52px;}     
+.page4 .yi .si{background-position: 0 -78px;}     
+.page4 .yi .wu{background-position: 0 -104px;}     
+.page4 .yi .liu{background-position: 0 -130px;}     
+.page4 .er{background: rgba(255,255,255,0.7);height: 128px;}
+.page4 .er li{float: left;width: 135px;padding: 16px 0 0 25px;height: 92px;overflow: hidden}
+.page4 .er li a{line-height: 24px;height: 24px;display: block;color: #999;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;}
+.page4 .er li a:hover{color:#C81623}
+.page4 .er li .ac{color: #c81623;}
+.page4 .main .left .bot{height: 158px;border: 1px solid #ededed;width: 328px;}
+.page4 .main .right{float:left;}
+.page4 .r_inner{width: 880px;height: 632px;overflow: hidden;float: left;border-bottom: 1px solid #ededed;font-size: 0;}
+.page4 .r_inner .banner{float: left;height: 633px;width: 439px;border-right: 1px solid #ededed;}
+.page4 .r_inner li{height: 157px;border-bottom: 1px solid #ededed;overflow: hidden;}
+.page4 .r_inner .er{height:315px;overflow: hidden;}
+.page4 .r_inner .san{height: 158px;border-bottom: none;overflow: hidden;}
+.page4 .details{float: left;height: 633px;width: 219px;border-right: 1px solid #ededed;}
+.page4 .details li{height: 157px;border-bottom: 1px solid #ededed;overflow: hidden;}
+.page4 .details .last{height: 158px;border-bottom: none;overflow: hidden;}
+.page4 .details .back{height: 316px;overflow: hidden;}
+.page4 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page4 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page4 .last{border-right:none;}
+
+/*第五层样式表--------------------------------------------------------*/
+.page5{padding-top: 22px;}
+.page5 .main .left{float:left;width:210px;position: relative;height: 474px;overflow: hidden;}
+.page5 .pic{position: relative;}
+.page5 .text{position: absolute;left: 0;top: 237px;}
+.page5 .text .yi{background: rgba(255,255,255,0.5);height: 92px;overflow: hidden;padding-left: 10px;}
+.page5 .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page5 .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/cosmeticsicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page5 .yi li .er{background-position: 0 -26px;}
+.page5 .yi li .san{background-position: 0 -52px;}
+.page5 .yi li .si{background-position: 0 -78px;}
+.page5 .er{background: rgba(255,255,255,0.7);height: 145px;overflow: hidden;}
+.page5 .one{padding: 22px 0 6px 25px;overflow: hidden;width: 180px;}
+.page5 .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;}
+.page5 .two{padding-left: 25px;height: 52px;overflow: hidden;}
+.page5 .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page5 .two .ac{color: #c81623;}
+.page5 .er a:hover{color:#C81623;}
+.page5 .right{float:left;width: 1000px;height: 473px;float: left;border-bottom: 1px solid #ededed;font-size: 0;}
+.page5 .banner{width: 339px;border-right: 1px solid #ededed;float: left;}
+.page5 .right li{height:294px;float:left;overflow: hidden;}
+.page5 .right .last{height: 176px;border-top: 1px dotted #ededed;overflow: hidden;}
+.page5 .details{float: left;width: 219px;border-right: 1px solid #ededed}
+.page5 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page5 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page5 .icon .last{border-right:none;}
+     
+/*第六层样式表--------------------------------------------------------*/
+.page6 .left{float:left;width:330px;position: relative;height: 474px;overflow: hidden;}
+.page6 .pic{position: relative;}
+.page6 .text{position: absolute;left: 0;top: 237px;}
+.page6 .yi{background: rgba(255,255,255,0.5);height: 46px;overflow: hidden;padding-left: 25px;}
+.page6 .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page6 .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/mobilesicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page6 .yi li .er{background-position: 0 -26px;}
+.page6 .yi li .san{background-position: 0 -52px;}
+.page6 .er{background: rgba(255,255,255,0.7);height: 191px;overflow: hidden;}
+.page6 .one{padding: 22px 0 6px 0;overflow: hidden;width: 330px;height:48px;}
+.page6 .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;width: 135px;overflow: hidden;padding-left: 25px;}
+.page6 .two li{padding-left: 25px;float: left;width: 135px;height: 98px;overflow: hidden;}
+.page6 .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page6 .two .ac{color: #c81623;}
+.page6 .er a:hover{color:#C81623;}
+.page6 .right{float:left;width: 880px;height: 473px;border-bottom: 1px solid #ededed;font-size: 0;overflow: hidden;}
+.page6 .banner{float: left;width: 439px;height: 473px;border-right: 1px solid #ededed;overflow: hidden;}
+.page6 .banner li{height: 236px;float: left;overflow: hidden;}
+.page6 .banner .last{height: 237px;border-top: 1px solid #ededed;overflow: hidden;}
+.page6 .details{float: left;width: 219px;height: 473px;border-right: 1px solid #ededed;overflow: hidden}
+.page6 .details li{height: 117px;overflow: hidden;border-bottom: 1px solid #ededed;}
+.page6 .details .last{height: 237px;border-right: none;}
+.page6 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page6 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page6 .icon .last{border-right:none;}
+
+/*第七层样式表--------------------------------------------------------*/
+.page7{padding-top: 22px;}
+.page7 .left{float:left;width:330px;position: relative;height: 474px;overflow: hidden;}
+.page7 .pic{position: relative;}
+.page7 .text{position: absolute;left: 0;top: 237px;}
+.page7 .yi{background: rgba(255,255,255,0.5);height: 46px;overflow: hidden;padding-left: 25px;}
+.page7 .yi li{width: 132px;height: 26px;float: left;margin: 10px 0;}
+.page7 .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/electronicsicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page7 .yi .er{background-position: 0 -26px;}
+.page7 .er{background: rgba(255,255,255,0.7);height: 191px;overflow: hidden;}
+.page7 .one{padding: 22px 0 6px 0;overflow: hidden;width: 330px;height:48px;}
+.page7 .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;width: 135px;overflow: hidden;padding-left: 25px;}
+.page7 .two li{padding-left: 25px;float: left;width: 135px;height: 98px;overflow: hidden;}
+.page7 .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page7 .two .ac{color: #c81623;}
+.page7 .er a:hover{color:#C81623;}
+.page7 .main .right{float:left;width: 880px;height: 473px;border-bottom: 1px solid #ededed;font-size: 0;overflow: hidden;}
+.page7 .banner{float: left;width: 439px;height: 473px;border-right: 1px solid #ededed;overflow: hidden;}
+.page7 .banner li{height: 236px;float: left;overflow: hidden;}
+.page7 .banner .last{height: 237px;border-top: 1px solid #ededed;overflow: hidden;}
+.page7 .details{float: left;width: 219px;height: 473px;border-right: 1px solid #ededed;overflow: hidden}
+.page7 .details li{height: 117px;overflow: hidden;border-bottom: 1px solid #ededed;}
+.page7 .details .last{height: 237px;border-right: none;}
+.page7 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page7 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page7 .icon .last{border-right:none;}
+
+/*第八层样式表--------------------------------------------------------*/
+.page8{padding-top: 22px;}
+.page8 .left{float:left;width:330px;position: relative;height: 474px;overflow: hidden;}
+.page8 .pic{position: relative;}
+.page8 .text{position: absolute;left: 0;top: 237px;}
+.page8 .yi{background: rgba(255,255,255,0.5);height: 46px;overflow: hidden;padding-left: 25px;}
+.page8 .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page8 .yi .da{width:108px;}
+.page8 .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/digitalsicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page8 .er{background-position: 0 -26px;}
+.page8 .er{background: rgba(255,255,255,0.7);height: 191px;overflow: hidden;}
+.page8 .one{padding: 22px 0 6px 0;overflow: hidden;width: 330px;height:48px;}
+.page8 .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;width: 135px;overflow: hidden;padding-left: 25px;}
+.page8 .two li{padding-left: 25px;float: left;width: 135px;height: 98px;overflow: hidden;}
+.page8 .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page8 .two .ac{color: #c81623;}
+.page8 .er a:hover{color:#C81623;}
+.page8 .right{float:left;width: 880px;height: 473px;border-bottom: 1px solid #ededed;font-size: 0;overflow: hidden;}
+.page8 .banner{float: left;width: 439px;height: 473px;border-right: 1px solid #ededed;overflow: hidden;}
+.page8 .banner li{height: 236px;float: left;overflow: hidden;}
+.page8 .banner .last{height: 237px;border-top: 1px solid #ededed;overflow: hidden;}
+.page8 .details{float: left;width: 219px;height: 473px;border-right: 1px solid #ededed;overflow: hidden}
+.page8 .details li{height: 117px;overflow: hidden;border-bottom: 1px solid #ededed;}
+.page8 .details .last{height: 237px;border-right: none;}
+.page8 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page8 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page8 .icon .last{border-right:none;}
+ 
+ /*第九层样式表--------------------------------------------------------*/
+.page9 .left{float:left;width:210px;height:474px;position: relative;overflow: hidden;}
+.page9 .pic{position: relative;}
+.page9 .text{position: absolute;left: 0;top: 237px;}
+.page9 .yi{background: rgba(255,255,255,0.5);height: 92px;overflow: hidden;padding-left: 10px;}
+.page9 .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page9 .yi a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/sportsicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page9 .yi .er{background-position: 0 -26px;}
+.page9 .yi .san{background-position: 0 -52px;}
+.page9 .yi .si{background-position: 0 -78px;}
+.page9 .er{background: rgba(255,255,255,0.7);height: 145px;overflow: hidden;}
+.page9 .one{padding: 22px 0 6px 25px;overflow: hidden;width: 180px;}
+.page9 .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;}
+.page9 .two{padding-left: 25px;height: 52px;overflow: hidden;}
+.page9 .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page9 .two .ac{color: #c81623;}
+.page9 .text .er a:hover{color:#C81623;}
+.page9 .right{float:left;width: 1000px;height: 473px;float: left;border-bottom: 1px solid #ededed;font-size: 0;}
+.page9 .banner{width: 339px;border-right: 1px solid #ededed;float: left;}
+.page9 .right li{height:236px;float:left;overflow: hidden;float: left;border-bottom: 1px solid #ededed;}
+.page9 .details{float: left;width: 219px;border-right: 1px solid #ededed}
+.page9 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page9 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page9 .icon .last{border-right:none;}
+
+/*第十层样式表--------------------------------------------------------*/
+.page10{padding-top: 22px;}
+.page10 .left{float:left;width:210px;height:474px;position: relative;overflow: hidden;}
+.page10 .pic{position: relative;}
+.page10 .text{position: absolute;left: 0;top: 237px;}
+.page10 .yi{background: rgba(255,255,255,0.5);height: 92px;overflow: hidden;padding-left: 10px;}
+.page10 .text .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page10 .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/livingsicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page10 .text .yi .er{background-position: 0 -26px;}
+.page10 .text .san{background-position: 0 -52px;}
+.page10 .text .si{background-position: 0 -78px;}
+.page10 .text .er{background: rgba(255,255,255,0.7);height: 145px;overflow: hidden;}
+.page10 .one{padding: 22px 0 6px 25px;overflow: hidden;width: 180px;}
+.page10 .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;}
+.page10 .two{padding-left: 25px;height: 52px;overflow: hidden;}
+.page10 .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page10 .two .ac{color: #c81623;}
+.page10 .text .er a:hover{color:#C81623;}
+.page10 .right{float:left;width: 1000px;height: 473px;float: left;border-bottom: 1px solid #ededed;font-size: 0;}
+.page10 .banner{width: 339px;border-right: 1px solid #ededed;float: left;}
+.page10 .right li{height:236px;float:left;overflow: hidden;float: left;border-bottom: 1px solid #ededed;}
+.page10 .details{float: left;width: 219px;border-right: 1px solid #ededed}
+.page10 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page10 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page10 .icon .last{border-right:none;}
+
+/*第十一层样式表--------------------------------------------------------*/
+.page11{padding-top: 22px;}
+.page11 .left{float:left;width:210px;height:474px;position: relative;overflow: hidden;}
+.page11 .pic{position: relative;}
+.page11 .text{position: absolute;left: 0;top: 237px;}
+.page11 .text .yi{background: rgba(255,255,255,0.5);height: 92px;overflow: hidden;padding-left: 10px;}
+.page11 .text .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page11 .text .yi a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/babysicon.png)  no-repeat;display: block;float: left;padding-left: 31px;}
+.page11 .text .yi .er{background-position: 0 -26px;}
+.page11 .text .yi .san{background-position: 0 -52px;}
+.page11 .text .yi .si{background-position: 0 -78px;}
+.page11 .text .er{background: rgba(255,255,255,0.7);height: 145px;overflow: hidden;}
+.page11 .one{padding: 22px 0 6px 25px;overflow: hidden;width: 180px;}
+.page11 .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;}
+.page11 .two{padding-left: 25px;height: 52px;overflow: hidden;}
+.page11 .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page11 .two .ac{color: #c81623;}
+.page11 .text .er a:hover{color:#C81623;}
+.page11 .right{float:left;width: 1000px;height: 473px;float: left;border-bottom: 1px solid #ededed;font-size: 0;}
+.page11 .banner{width: 339px;border-right: 1px solid #ededed;float: left;}
+.page11 .right li{height:236px;float:left;overflow: hidden;float: left;border-bottom: 1px solid #ededed;}
+.page11 .details{float: left;width: 219px;border-right: 1px solid #ededed}
+.page11 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page11 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page11 .icon .last{border-right:none;}
+ 
+ /*第十二层样式表--------------------------------------------------------*/   
+.page12{padding-top: 22px;}
+.page12 .left{float:left;width:210px;height:474px;position: relative;overflow: hidden;}
+.page12 .pic{position: relative;}
+.page12 .text{position: absolute;left: 0;top: 237px;}
+.page12 .text .yi{background: rgba(255,255,255,0.5);height: 92px;overflow: hidden;padding-left: 10px;}
+.page12 .text .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page12 .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/foodsicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page12 .text .yi .er{background-position: 0 -26px;}
+.page12 .text .yi .san{background-position: 0 -52px;}
+.page12 .text .yi .si{background-position: 0 -78px;}
+.page12 .text .er{background: rgba(255,255,255,0.7);height: 145px;overflow: hidden;}
+.page12 .one{padding: 22px 0 6px 25px;overflow: hidden;width: 180px;}
+.page12 .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;}
+.page12 .two{padding-left: 25px;height: 52px;overflow: hidden;}
+.page12 .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page12 .two .ac{color: #c81623;}
+.page12 .text .er a:hover{color:#C81623;}
+.page12 .right{float:left;width: 1000px;height: 473px;float: left;border-bottom: 1px solid #ededed;font-size: 0;}
+.page12 .banner{width: 339px;border-right: 1px solid #ededed;float: left;}
+.page12 .right li{height:236px;float:left;overflow: hidden;float: left;border-bottom: 1px solid #ededed;}
+.page12 .details{float: left;width: 219px;border-right: 1px solid #ededed}
+.page12 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page12 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page12 .icon .last{border-right:none;}    
+ 
+/*第十三层样式表--------------------------------------------------------*/
+.page13 .left{float:left;width:210px;height:474px;position: relative;overflow: hidden;}
+.page13 .left .pic{position: relative;}
+.page13 .left .text{position: absolute;left: 0;top: 237px;}
+.page13 .yi{background: rgba(255,255,255,0.5);height: 92px;overflow: hidden;padding-left: 10px;}
+.page13 .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page13 .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/booksicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page13 .yi .er{background-position: 0 -26px;}
+.page13 .yi .san{background-position: 0 -52px;}
+.page13 .yi .si{background-position: 0 -78px;}
+.page13 .er{background: rgba(255,255,255,0.7);height: 145px;overflow: hidden;}
+.page13 .one{padding: 22px 0 6px 25px;overflow: hidden;width: 180px;}
+.page13 .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;}
+.page13 .two{padding-left: 25px;height: 52px;overflow: hidden;}
+.page13 .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page13 .two .ac{color: #c81623;}
+.page13 .er a:hover{color:#C81623;}
+.page13 .right{float:left;width: 1000px;height: 473px;float: left;border-bottom: 1px solid #ededed;font-size: 0;}
+.page13 .banner{width: 439px;border-right: 1px solid #ededed;float: left;}
+.page13 .right li{height: 236px;float: left;border-bottom: 1px solid #ededed;overflow: hidden;}
+.page13 .first{border-bottom: 1px dotted #ededed;}
+.page13 .details{float: left;width: 219px;border-right: 1px solid #ededed}
+.page13 .author{width: 314px;float: left;padding: 0 15px 0 10px;overflow: hidden}
+.page13 .author dt{height: 40px;line-height: 40px;font-size: 20px;border-bottom: 1px solid #e4e4e4;}
+.page13 .author dd{height: 79px;padding-top: 21px;}
+.page13 .author dd>a{width: 72px;height: 79px;box-sizing: border-box;display: block;text-align: center;float: left} 
+.page13 .author .pic{width: 48px;height: 48px;font-size: 0;margin: 2px auto;}
+.page13 .author .pic img{width:100%}
+.page13 .author dd p{font: 12px/29px "宋体";color: #999;height: 29px;}
+.page13 .author dd p:hover{color:#C81623;}
+.page13 .author dd .text{float: left;width: 241px;}
+.page13 .book{width: 79px;height: 79px;float: left;margin-right: 10px;}
+.page13 .book img{width:100%}
+.page13 .author .text p{font-size: 14px;line-height: 18px;color: #666;width: 143px;white-space: nowrap;overflow: hidden;font-family: "微软雅黑";}
+.page13 .wenzi{width: 150px;height: 57px;background: #f8f8f8;position: relative;float: right;}
+.page13 .wenzi:before{content: '';width: 10px;height: 10px;background: #f8f8f8;transform: rotate(45deg);position: absolute;left: -5px;bottom: 22px;}
+.page13 .wenzi span{font: 12px/18px "宋体";color: #999;width: 125px;height: 57px;padding-top: 4px;overflow: hidden;display: block;padding: 10px 20px 0 5px;}
+.page13 .author .f{font-size: 35px;font-family: Arial;line-height: 30px;float: left;width: 15px;}
+.page13 .author .l{font-size: 35px;font-family: Arial;line-height: 38px;width: 15px;vertical-align: -22px;}
+.page13 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page13 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page13 .icon .last{border-right:none;}
+
+/*第十四层样式表--------------------------------------------------------*/
+.page14{padding-top: 22px;}
+.page14 .left{float:left;width:330px;position: relative;height: 474px;overflow: hidden;}
+.page14 .pic{position: relative;}
+.page14 .text{position: absolute;left: 0;top: 237px;}
+.page14 .yi{background: rgba(255,255,255,0.5);height: 46px;overflow: hidden;padding-left: 25px;}
+.page14 .yi li{width: 98px;height: 26px;float: left;margin: 10px 0;}
+.page14 .da{width:108px;}
+.page14 .text .yi li a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/carsicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page14 .text .yi .er{background-position: 0 -26px;}
+.page14 .text .yi .san{background-position: 0 -52px;}
+.page14 .text .er{background: rgba(255,255,255,0.7);height: 191px;overflow: hidden;}
+.page14 .one{padding: 22px 0 6px 0;overflow: hidden;width: 330px;height:48px;}
+.page14 .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;width: 135px;overflow: hidden;padding-left: 25px;}
+.page14 .two li{padding-left: 25px;float: left;width: 135px;height: 98px;overflow: hidden;}
+.page14 .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page14 .two .ac{color: #c81623;}
+.page14 .text .er a:hover{color:#C81623;}
+.page14 .right{float:left;width: 880px;height: 473px;border-bottom: 1px solid #ededed;font-size: 0;overflow: hidden;}
+.page14 .banner{float: left;width: 439px;height: 473px;border-right: 1px solid #ededed;overflow: hidden;}
+.page14 .banner li{height: 236px;float: left;overflow: hidden;}
+.page14 .banner .last{height: 237px;border-top: 1px solid #ededed;overflow: hidden;}
+.page14 .details{float: left;width: 219px;height: 473px;border-right: 1px solid #ededed;overflow: hidden}
+.page14 .details li{height: 117px;overflow: hidden;border-bottom: 1px solid #ededed;}
+.page14 .details .last{height: 237px;border-right: none;}
+.page14 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page14 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page14 .icon .last{border-right:none;}
+
+/*第十五层样式表--------------------------------------------------------*/
+.page15{padding-top: 22px;}
+.page15 .left{float:left;width:210px;height:474px;position: relative;overflow: hidden;}
+.page15 .pic{position: relative;}
+.page15 .text{position: absolute;left: 0;top: 237px;}
+.page15 .yi{background: rgba(255,255,255,0.5);height: 92px;overflow: hidden;padding-left: 25px;}
+.page15 .yi li{width: 108px;height: 26px;float: left;margin: 10px 0;}
+.page15 .yi a{font-size: 14px;line-height: 26px;height: 26px;padding-right: 5px;background: url(../images/lifeicon.png) no-repeat;display: block;float: left;padding-left: 31px;}
+.page15 .yi .er{background-position: 0 -26px;}
+.page15 .san{background-position: 0 -52px;}
+.page15 .si{background-position: 0 -78px;}
+.page15 .text .er{background: rgba(255,255,255,0.7);height: 145px;overflow: hidden;}
+.page15 .one{padding: 22px 0 6px 25px;overflow: hidden;width: 180px;}
+.page15 .one a{line-height: 24px;height: 24px;display: block;font-size: 14px;float: left;white-space: nowrap;color: #666;}
+.page15 .two{padding-left: 25px;height: 52px;overflow: hidden;}
+.page15 .two a{line-height: 24px;height: 24px;display: block;font-size: 12px;font-family: "宋体";float: left;margin-right: 10px;white-space: nowrap;color: #999;}
+.page15 .two .ac{color: #c81623;}
+.page15 .text .er a:hover{color:#C81623;}
+.page15 .con{float: left;width: 395px;height: 473px;border-bottom: 1px solid #ededed;font-size: 0px;}
+.page15 .banner{height: 237px;overflow: hidden;}
+.page15 .details{height:236px;}
+.page15 .details li{width: 196px;height: 117px;border-right: 1px solid #ededed;border-top: 1px solid #ededed;float: left;overflow: hidden;}
+.page15 .details .er{width:197px;}
+.page15 .icon{margin-top: 10px;background: #f7f7f7;height: 66px;overflow: hidden;}
+.page15 .icon li{float: left;padding: 0 10px;border-right: 1px dashed #cccccc;margin-top: 13px;} 
+.page15 .icon .last{border-right:none;}
+
+/*第十六层样式表--------------------------------------------------------*/
+.page16{padding-top: 14px;}
+.page16 .left{float:left;}
+.page16 .left h2{line-height: 41px;height: 41px;font-size: 20px;font-weight: normal;}
+.page16 .left .con{width: 899px;height: 281px;border: 1px solid #e5e5e5;border-right: none;}
+.page16 .left .con .left{width: 181px;padding: 0 29px 30px;float: left;}
+.page16 .pic{width: 160px;height: 160px;margin: 18px auto 0;transition: all 0.3s;}
+.page16 .left .con .left p{font-size: 12px;font-family: "宋体";color: #696969;line-height: 23px;height: 23px;margin-top: 27px;white-space: nowrap;overflow: hidden}
+.page16 .left .con .left p:hover{color:#C81623}
+.page16 .left .con .left span{font-size: 14px;color: #e32228;line-height: 24px;height: 24px;font-weight: bolder;}
+.page16 .left .con ul{width:660px;float:left;}
+.page16 .left .con li{width: 206px;float: left;height: 140px;border-left: 1px solid #ededed;border-bottom: 1px solid #ededed;padding-right: 13px;}
+.page16 .left .con li .pic{display: block;width: 100px;height: 100px;float: left;margin: 18px 5px 0 10px;overflow: hidden;}
+.page16 .left .con li p{line-height: 18px;height: 36px;overflow: hidden;font-size: 12px;font-family: "宋体";color: #696969;margin-top: 18px;}
+.page16 .left .con li span{line-height: 28px;height: 28px;font-size: 14px;color: #e32228;font-weight: bolder;}
+.page16 .right{float:left;}
+.page16 .right h2{line-height: 41px;height: 41px;font-size: 20px;font-weight: normal;}
+.page16 .roll{width: 264px;height: 206px;border: 1px solid #ededed;padding: 39px 24px 36px 20px;overflow: hidden;position: relative;}
+.page16 .roll .con{width: 264px;height: 206px;animation: roll 5s linear infinite;position: absolute}
+.page16 .roll .con:hover{animation-play-state: paused;}
+.page16 .roll li{margin-bottom: 35px;}
+.page16 .roll .pic{float: left;width: 80px;height: 80px;padding-top: 6px;overflow: hidden;}
+.page16 .roll .pic img{width:100%}
+.page16 .text{float: right;width: 165px;height: 86px;}
+.page16 .book img{width: 28px;height: 27px;float: left;margin-right: 8px;}
+.page16 .book p{font-size: 12px;line-height: 27px;color: #666;white-space: nowrap;overflow: hidden;font-family: "微软雅黑";}
+.page16 .wenzi{width: 165px;height: 54px;background: #f8f8f8;position: relative;float: right;margin-top: 5px;}
+.page16 .wenzi:before{content: '';width: 10px;height: 10px;background: #f8f8f8;transform: rotate(45deg);position: absolute;left: -5px;bottom: 22px;}
+.page16 .wenzi a{font: 12px/18px "宋体";color: #999;width: 150px;height: 40px;overflow: hidden;display: block;padding: 10px 20px 0 5px;}
+.page16 .wenzi a:hover{color:#C81623}
+.page16 .yi{font-size: 35px;font-family: Arial;line-height: 30px;float: left;width: 15px;color: #666;}
+.page16 .er{font-size: 35px;font-family: Arial;line-height: 38px;width: 15px;vertical-align: -22px;color: #666;}
+
+/*左边的浮动楼层--------------------------------------------------------*/
+em{font-style: normal;}
+.hide{display: none;}
+.asideList{width: 30px;position: fixed;top:220px;left: 50%;margin-left: -680px;font-size: 14px;}
+.asideList li{height: 30px;line-height: 30px;cursor: pointer; text-align:center;border-bottom: 1px dotted #ccc;}
+.asideList span{height: 30px;display:inline-block;line-height: 30px;cursor: pointer; text-align:center;margin-bottom: 5px;border-bottom: 1px dotted #ccc;}
+.asideList .ac{background: #C70012;color: #fff;}
